@@ -1,146 +1,53 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 2656:
+/***/ "./components/Layout.js":
+/*!******************************!*\
+  !*** ./components/Layout.js ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: ./styles/index.css
-var styles = __webpack_require__(9517);
-// EXTERNAL MODULE: external "flowbite-react"
-var external_flowbite_react_ = __webpack_require__(7532);
-;// CONCATENATED MODULE: ./components/Layout.js
-
-
-function Layout({ children  }) {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: "container",
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "header",
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_flowbite_react_.Navbar, {
-                    fluid: true,
-                    rounded: false,
-                    className: "pt-5 main-nav",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_flowbite_react_.Navbar.Brand, {
-                            href: "https://flowbite.com/",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "https://flowbite.com/docs/images/logo.svg",
-                                    className: "mr-3 h-6 sm:h-9",
-                                    alt: "Flowbite Logo"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                    className: "self-center whitespace-nowrap text-xl font-semibold dark:text-white",
-                                    children: "Flowbite"
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(external_flowbite_react_.Navbar.Toggle, {}),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_flowbite_react_.Navbar.Collapse, {
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx(external_flowbite_react_.Navbar.Link, {
-                                    href: "/",
-                                    active: true,
-                                    children: "Home"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx(external_flowbite_react_.Navbar.Link, {
-                                    href: "/about",
-                                    children: "About"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx(external_flowbite_react_.Navbar.Link, {
-                                    href: "/models",
-                                    children: "Models"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx(external_flowbite_react_.Navbar.Link, {
-                                    href: "/blog-page",
-                                    children: "Blog"
-                                })
-                            ]
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "cont-wrapper",
-                children: children
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "footer",
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_flowbite_react_.Footer, {
-                    container: true,
-                    className: "footer",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(external_flowbite_react_.Footer.Copyright, {
-                            href: "#",
-                            by: "Flowbite™",
-                            year: 2022
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_flowbite_react_.Footer.LinkGroup, {
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx(external_flowbite_react_.Footer.Link, {
-                                    href: "#",
-                                    children: "About"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx(external_flowbite_react_.Footer.Link, {
-                                    href: "#",
-                                    children: "Privacy Policy"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx(external_flowbite_react_.Footer.Link, {
-                                    href: "#",
-                                    children: "Licensing"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx(external_flowbite_react_.Footer.Link, {
-                                    href: "#",
-                                    children: "Contact"
-                                })
-                            ]
-                        })
-                    ]
-                })
-            })
-        ]
-    });
-}
-
-;// CONCATENATED MODULE: ./pages/_app.js
-
-
-
-function MyApp({ Component , pageProps  }) {
-    return /*#__PURE__*/ jsx_runtime_.jsx(Layout, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-            ...pageProps
-        })
-    });
-}
-/* harmony default export */ const _app = (MyApp);
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Layout)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var flowbite_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! flowbite-react */ \"flowbite-react\");\n/* harmony import */ var flowbite_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(flowbite_react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction Layout({ children  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"container\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"header\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Navbar, {\n                    fluid: true,\n                    rounded: false,\n                    className: \"pt-5 main-nav\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Brand, {\n                            href: \"https://flowbite.com/\",\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                    src: \"https://flowbite.com/docs/images/logo.svg\",\n                                    className: \"mr-3 h-6 sm:h-9\",\n                                    alt: \"Flowbite Logo\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                                    lineNumber: 13,\n                                    columnNumber: 25\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                    className: \"self-center whitespace-nowrap text-xl font-semibold dark:text-white\",\n                                    children: \"Flowbite\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                                    lineNumber: 18,\n                                    columnNumber: 25\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                            lineNumber: 12,\n                            columnNumber: 21\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Toggle, {}, void 0, false, {\n                            fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                            lineNumber: 22,\n                            columnNumber: 21\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Collapse, {\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Link, {\n                                    href: \"/\",\n                                    active: true,\n                                    children: \"Home\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                                    lineNumber: 24,\n                                    columnNumber: 25\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Link, {\n                                    href: \"/about\",\n                                    children: \"About\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                                    lineNumber: 30,\n                                    columnNumber: 25\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Link, {\n                                    href: \"/models\",\n                                    children: \"Models\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                                    lineNumber: 33,\n                                    columnNumber: 25\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Navbar.Link, {\n                                    href: \"/blog-page\",\n                                    children: \"Blog\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                                    lineNumber: 36,\n                                    columnNumber: 25\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                            lineNumber: 23,\n                            columnNumber: 21\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                    lineNumber: 7,\n                    columnNumber: 17\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                lineNumber: 6,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"cont-wrapper\",\n                children: children\n            }, void 0, false, {\n                fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                lineNumber: 43,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"footer\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Footer, {\n                    container: true,\n                    className: \"footer\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Footer.Copyright, {\n                            href: \"#\",\n                            by: \"Flowbite™\",\n                            year: 2022\n                        }, void 0, false, {\n                            fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                            lineNumber: 47,\n                            columnNumber: 21\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Footer.LinkGroup, {\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Footer.Link, {\n                                    href: \"#\",\n                                    children: \"About\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                                    lineNumber: 53,\n                                    columnNumber: 25\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Footer.Link, {\n                                    href: \"#\",\n                                    children: \"Privacy Policy\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                                    lineNumber: 56,\n                                    columnNumber: 25\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Footer.Link, {\n                                    href: \"#\",\n                                    children: \"Licensing\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                                    lineNumber: 59,\n                                    columnNumber: 25\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(flowbite_react__WEBPACK_IMPORTED_MODULE_1__.Footer.Link, {\n                                    href: \"#\",\n                                    children: \"Contact\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                                    lineNumber: 62,\n                                    columnNumber: 25\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                            lineNumber: 52,\n                            columnNumber: 21\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                    lineNumber: 46,\n                    columnNumber: 17\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n                lineNumber: 45,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/serxhio/Desktop/appi/components/Layout.js\",\n        lineNumber: 5,\n        columnNumber: 9\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0xheW91dC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUFBO0FBQStDO0FBRWhDLFNBQVNFLE9BQU8sRUFBQ0MsU0FBUSxFQUFDLEVBQUU7SUFDdkMscUJBQ0ksOERBQUNDO1FBQUtDLFdBQVU7OzBCQUNaLDhEQUFDRDtnQkFBSUMsV0FBVTswQkFDWCw0RUFBQ0wsa0RBQU1BO29CQUNITSxPQUFPLElBQUk7b0JBQ1hDLFNBQVMsS0FBSztvQkFDZEYsV0FBVTs7c0NBRVYsOERBQUNMLHdEQUFZOzRCQUFDUyxNQUFLOzs4Q0FDZiw4REFBQ0M7b0NBQ0RDLEtBQUk7b0NBQ0pOLFdBQVU7b0NBQ1ZPLEtBQUk7Ozs7Ozs4Q0FFSiw4REFBQ0M7b0NBQUtSLFdBQVU7OENBQXNFOzs7Ozs7Ozs7Ozs7c0NBSTFGLDhEQUFDTCx5REFBYTs7Ozs7c0NBQ2QsOERBQUNBLDJEQUFlOzs4Q0FDWiw4REFBQ0EsdURBQVc7b0NBQ1pTLE1BQUs7b0NBQ0xRLFFBQVEsSUFBSTs4Q0FDWDs7Ozs7OzhDQUdELDhEQUFDakIsdURBQVc7b0NBQUNTLE1BQUs7OENBQVM7Ozs7Ozs4Q0FHM0IsOERBQUNULHVEQUFXO29DQUFDUyxNQUFLOzhDQUFVOzs7Ozs7OENBRzVCLDhEQUFDVCx1REFBVztvQ0FBQ1MsTUFBSzs4Q0FBYTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7MEJBTzNDLDhEQUFDTDtnQkFBSUMsV0FBVTswQkFBZ0JGOzs7Ozs7MEJBRS9CLDhEQUFDQztnQkFBSUMsV0FBVTswQkFDWCw0RUFBQ0osa0RBQU1BO29CQUFDaUIsV0FBVyxJQUFJO29CQUFFYixXQUFVOztzQ0FDL0IsOERBQUNKLDREQUFnQjs0QkFDYlEsTUFBSzs0QkFDTFcsSUFBRzs0QkFDSEMsTUFBTTs7Ozs7O3NDQUVWLDhEQUFDcEIsNERBQWdCOzs4Q0FDYiw4REFBQ0EsdURBQVc7b0NBQUNRLE1BQUs7OENBQUk7Ozs7Ozs4Q0FHdEIsOERBQUNSLHVEQUFXO29DQUFDUSxNQUFLOzhDQUFJOzs7Ozs7OENBR3RCLDhEQUFDUix1REFBVztvQ0FBQ1EsTUFBSzs4Q0FBSTs7Ozs7OzhDQUd0Qiw4REFBQ1IsdURBQVc7b0NBQUNRLE1BQUs7OENBQUk7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBUTlDLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9jb21wb25lbnRzL0xheW91dC5qcz81MTVjIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE5hdmJhciwgRm9vdGVyIH0gZnJvbSBcImZsb3diaXRlLXJlYWN0XCJcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTGF5b3V0KHtjaGlsZHJlbn0pIHtcbiAgICByZXR1cm4gKFxuICAgICAgICA8ZGl2ICBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaGVhZGVyXCI+XG4gICAgICAgICAgICAgICAgPE5hdmJhclxuICAgICAgICAgICAgICAgICAgICBmbHVpZD17dHJ1ZX1cbiAgICAgICAgICAgICAgICAgICAgcm91bmRlZD17ZmFsc2V9XG4gICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInB0LTUgbWFpbi1uYXZcIlxuICAgICAgICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgICAgIDxOYXZiYXIuQnJhbmQgaHJlZj1cImh0dHBzOi8vZmxvd2JpdGUuY29tL1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGltZ1xuICAgICAgICAgICAgICAgICAgICAgICAgc3JjPVwiaHR0cHM6Ly9mbG93Yml0ZS5jb20vZG9jcy9pbWFnZXMvbG9nby5zdmdcIlxuICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwibXItMyBoLTYgc206aC05XCJcbiAgICAgICAgICAgICAgICAgICAgICAgIGFsdD1cIkZsb3diaXRlIExvZ29cIlxuICAgICAgICAgICAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInNlbGYtY2VudGVyIHdoaXRlc3BhY2Utbm93cmFwIHRleHQteGwgZm9udC1zZW1pYm9sZCBkYXJrOnRleHQtd2hpdGVcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIEZsb3diaXRlXG4gICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgIDwvTmF2YmFyLkJyYW5kPlxuICAgICAgICAgICAgICAgICAgICA8TmF2YmFyLlRvZ2dsZSAvPlxuICAgICAgICAgICAgICAgICAgICA8TmF2YmFyLkNvbGxhcHNlPlxuICAgICAgICAgICAgICAgICAgICAgICAgPE5hdmJhci5MaW5rXG4gICAgICAgICAgICAgICAgICAgICAgICBocmVmPVwiL1wiXG4gICAgICAgICAgICAgICAgICAgICAgICBhY3RpdmU9e3RydWV9XG4gICAgICAgICAgICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgICAgICAgICBIb21lXG4gICAgICAgICAgICAgICAgICAgICAgICA8L05hdmJhci5MaW5rPlxuICAgICAgICAgICAgICAgICAgICAgICAgPE5hdmJhci5MaW5rIGhyZWY9XCIvYWJvdXRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIEFib3V0XG4gICAgICAgICAgICAgICAgICAgICAgICA8L05hdmJhci5MaW5rPlxuICAgICAgICAgICAgICAgICAgICAgICAgPE5hdmJhci5MaW5rIGhyZWY9XCIvbW9kZWxzXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICBNb2RlbHNcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvTmF2YmFyLkxpbms+XG4gICAgICAgICAgICAgICAgICAgICAgICA8TmF2YmFyLkxpbmsgaHJlZj1cIi9ibG9nLXBhZ2VcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIEJsb2dcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvTmF2YmFyLkxpbms+XG4gICAgICAgICAgICAgICAgICAgIDwvTmF2YmFyLkNvbGxhcHNlPlxuICAgICAgICAgICAgICAgIDwvTmF2YmFyPlxuICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udC13cmFwcGVyXCI+e2NoaWxkcmVufTwvZGl2PlxuXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvb3RlclwiPlxuICAgICAgICAgICAgICAgIDxGb290ZXIgY29udGFpbmVyPXt0cnVlfSBjbGFzc05hbWU9XCJmb290ZXJcIj5cbiAgICAgICAgICAgICAgICAgICAgPEZvb3Rlci5Db3B5cmlnaHRcbiAgICAgICAgICAgICAgICAgICAgICAgIGhyZWY9XCIjXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIGJ5PVwiRmxvd2JpdGXihKJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgeWVhcj17MjAyMn1cbiAgICAgICAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgICAgICAgICAgPEZvb3Rlci5MaW5rR3JvdXA+XG4gICAgICAgICAgICAgICAgICAgICAgICA8Rm9vdGVyLkxpbmsgaHJlZj1cIiNcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIEFib3V0XG4gICAgICAgICAgICAgICAgICAgICAgICA8L0Zvb3Rlci5MaW5rPlxuICAgICAgICAgICAgICAgICAgICAgICAgPEZvb3Rlci5MaW5rIGhyZWY9XCIjXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICBQcml2YWN5IFBvbGljeVxuICAgICAgICAgICAgICAgICAgICAgICAgPC9Gb290ZXIuTGluaz5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxGb290ZXIuTGluayBocmVmPVwiI1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgTGljZW5zaW5nXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0Zvb3Rlci5MaW5rPlxuICAgICAgICAgICAgICAgICAgICAgICAgPEZvb3Rlci5MaW5rIGhyZWY9XCIjXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICBDb250YWN0XG4gICAgICAgICAgICAgICAgICAgICAgICA8L0Zvb3Rlci5MaW5rPlxuICAgICAgICAgICAgICAgICAgICA8L0Zvb3Rlci5MaW5rR3JvdXA+XG4gICAgICAgICAgICAgICAgPC9Gb290ZXI+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+ICAgIFxuICAgIClcbn0iXSwibmFtZXMiOlsiTmF2YmFyIiwiRm9vdGVyIiwiTGF5b3V0IiwiY2hpbGRyZW4iLCJkaXYiLCJjbGFzc05hbWUiLCJmbHVpZCIsInJvdW5kZWQiLCJCcmFuZCIsImhyZWYiLCJpbWciLCJzcmMiLCJhbHQiLCJzcGFuIiwiVG9nZ2xlIiwiQ29sbGFwc2UiLCJMaW5rIiwiYWN0aXZlIiwiY29udGFpbmVyIiwiQ29weXJpZ2h0IiwiYnkiLCJ5ZWFyIiwiTGlua0dyb3VwIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/Layout.js\n");
 
 /***/ }),
 
-/***/ 9517:
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/index.css */ \"./styles/index.css\");\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ \"./components/Layout.js\");\n\n\n\nfunction MyApp({ Component , pageProps  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Layout__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n            ...pageProps\n        }, void 0, false, {\n            fileName: \"/Users/serxhio/Desktop/appi/pages/_app.js\",\n            lineNumber: 7,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/serxhio/Desktop/appi/pages/_app.js\",\n        lineNumber: 6,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBO0FBQTRCO0FBQ2E7QUFFekMsU0FBU0MsTUFBTSxFQUFFQyxVQUFTLEVBQUVDLFVBQVMsRUFBRSxFQUFFO0lBQ3ZDLHFCQUNFLDhEQUFDSCwwREFBTUE7a0JBQ0wsNEVBQUNFO1lBQVcsR0FBR0MsU0FBUzs7Ozs7Ozs7Ozs7QUFHOUI7QUFFQSxpRUFBZUYsS0FBS0EsRUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3BhZ2VzL19hcHAuanM/ZTBhZCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJy4uL3N0eWxlcy9pbmRleC5jc3MnXG5pbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTGF5b3V0J1xuXG5mdW5jdGlvbiBNeUFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pIHtcbiAgcmV0dXJuIChcbiAgICA8TGF5b3V0PlxuICAgICAgPENvbXBvbmVudCB7Li4ucGFnZVByb3BzfSAvPlxuICAgIDwvTGF5b3V0PlxuICApXG59XG5cbmV4cG9ydCBkZWZhdWx0IE15QXBwXG4iXSwibmFtZXMiOlsiTGF5b3V0IiwiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
+
+/***/ }),
+
+/***/ "./styles/index.css":
+/*!**************************!*\
+  !*** ./styles/index.css ***!
+  \**************************/
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 7532:
+/***/ "flowbite-react":
+/*!*********************************!*\
+  !*** external "flowbite-react" ***!
+  \*********************************/
 /***/ ((module) => {
 
 "use strict";
@@ -148,11 +55,14 @@ module.exports = require("flowbite-react");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-runtime");
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -163,7 +73,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(2656));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
 module.exports = __webpack_exports__;
 
 })();

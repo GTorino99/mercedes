@@ -1,14 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/about": "pages/about.html",
-  "/blog/[blog]": "pages/blog/[blog].js",
-  "/": "pages/index.js",
-  "/models": "pages/models.js",
-  "/search": "pages/search.js",
   "/_error": "pages/_error.js",
-  "/vehicle-model/[model]": "pages/vehicle-model/[model].js",
-  "/vehicle/[code]": "pages/vehicle/[code].js",
   "/_document": "pages/_document.js",
-  "/blog-page": "pages/blog-page.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }

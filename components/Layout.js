@@ -42,7 +42,7 @@ export default function Layout({children}) {
 
             <div className="cont-wrapper">{children}</div>
 
-            <div className="footer">
+            <div className="footer mt-4">
                 <Footer container={true} className="footer">
                     <Footer.Copyright
                         href="#"

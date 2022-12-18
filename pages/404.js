@@ -7,11 +7,11 @@ const NotFound = () => {
   useEffect(() => {
     setTimeout(() => {
       router.push('/')
-    }, 4000)
+    }, 40000)
   }, [])
 
   return (
-    <div className="not-found">
+    <div className="not-found  bg-[#1A2238] pb-4">
       <h1 class="text-9xl font-extrabold text-white tracking-widest">404</h1>
       <div class="bg-[#FF6A3D] px-2 text-sm rounded rotate-12 absolute">
         Page Not Found

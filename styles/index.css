@@ -52,7 +52,7 @@ li {
 }
 
 .footer {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     max-width: inherit;
 }

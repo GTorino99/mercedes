@@ -3,7 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/vehicle-model/[model]": "pages/vehicle-model/[model].js",
   "/models": "pages/models.js",
+  "/vehicle-model/[model]": "pages/vehicle-model/[model].js",
   "/404": "pages/404.js"
 }

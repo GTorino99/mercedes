@@ -12,12 +12,22 @@ body {
     background-color: #1A2238;
 }
 
-nav .nav-main {
+.container {
+    max-width: 2000px;
+    margin: auto;
+    margin-bottom: 3rem;
+    display: grid;
+}
+
+nav.main-nav {
     position: sticky;
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: transparent;
+}
+
+ul > li > a {
+    color: #ff6a3d;
 }
 
 .container {
@@ -35,7 +45,7 @@ li {
     display: block;
 }
 
-.rounded-lg {
+.rounded-lg, .rounded-t-lg {
     border-radius: 0;
 }
 
@@ -117,5 +127,9 @@ li {
 }
 
 h2 {
+    color: #ffffff;
+}
+
+ul.mt-4 {
     color: white;
 }

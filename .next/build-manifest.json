@@ -30,6 +30,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/about.js"
     ],
+    "/blog-page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/blog-page.js"
+    ],
     "/models": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

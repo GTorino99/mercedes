@@ -7,16 +7,18 @@ export default function Layout({children}) {
                 <Navbar
                     fluid={true}
                     rounded={false}
-                    className="pt-5 main-nav"
+                    className="pt-5 main-nav bg-[#1A2238]"
                     >
                     <Navbar.Brand href="https://flowbite.com/">
                         <img
-                        src="https://flowbite.com/docs/images/logo.svg"
+                        src="https://www.freepnglogos.com/uploads/mercedes-logo-png/mercedes-logo-take-care-novembro-2.png"
                         className="mr-3 h-6 sm:h-9"
+                        width="40px"
+                        height="40px"
                         alt="Flowbite Logo"
                         />
-                        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-                        Flowbite
+                        <span className="self-center whitespace-nowrap text-xl font-semibold text-white">
+                        Mercedes
                         </span>
                     </Navbar.Brand>
                     <Navbar.Toggle />
@@ -43,10 +45,10 @@ export default function Layout({children}) {
             <div className="cont-wrapper">{children}</div>
 
             <div className="footer mt-4">
-                <Footer container={true} className="footer">
-                    <Footer.Copyright
-                        href="#"
-                        by="Flowbite™"
+                <Footer container={true} className="footer bg-[#1A2238]">
+                    <Footer.Copyright className="text-white"
+                        href="/"
+                        by="Mercedes"
                         year={2022}
                     />
                     <Footer.LinkGroup>
